@@ -1,9 +1,14 @@
 # NAME: PikPak
 # UPDATED: 2025-04-26 22:20:40
-# DOMAIN:2
+# DOMAIN:8
 # DOMAIN-SUFFIX:1
-# TOTAL:3
-DOMAIN,access.mypikpak.com
-DOMAIN,api-drive.mypikpak.com
+# TOTAL:9
+DOMAIN,mypikpak.com
+DOMAIN,mypikpak.net
 DOMAIN,user.mypikpak.com
+DOMAIN,access.mypikpak.com
+DOMAIN,access.mypikpak.net
+DOMAIN,api-drive.mypikpak.com
+DOMAIN,config.mypikpak.com
+DOMAIN,inapp.mypikpak.com
 DOMAIN-SUFFIX,mypikpak.com
