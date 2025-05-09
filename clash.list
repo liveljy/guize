@@ -43,8 +43,8 @@ ruleset=🤖 AI服务,[]GEOSITE,category-ai-!cn
 ruleset=🚀 GitHub,[]GEOSITE,github
 ;测速工具包括 SpeedTest 等主流测速工具域名
 ruleset=🚀 测速工具,[]GEOSITE,category-speedtest
-ruleset=📹 YouTube,[]GEOSITE
-ruleset=📺 IPTV,https://raw.githubusercontent.com/liveljy/guize/refs/heads/main/Hami.list,youtube
+ruleset=📹 YouTube,[]GEOSITE,youtube
+ruleset=📺 IPTV,https://raw.githubusercontent.com/liveljy/guize/refs/heads/main/Hami.list
 ruleset=🎥 AppleTV+,[]GEOSITE,apple-tvplus
 ruleset=🍎 苹果服务,[]GEOSITE,apple
 ruleset=Ⓜ️ 微软服务,[]GEOSITE,microsoft
