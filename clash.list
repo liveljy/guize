@@ -17,6 +17,8 @@
 ;本地地址和域名直连
 ruleset=🎯 全球直连,[]GEOSITE,private
 ruleset=🎯 全球直连,[]GEOIP,private,no-resolve
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ;本项目收录的直连域名规则
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct.list,28800
 ;本项目收录的代理域名规则
@@ -109,6 +111,8 @@ custom_proxy_group=🎮 游戏平台`select`[]🎯 全球直连`[]♻️ 香港�
 custom_proxy_group=🎮 Steam`select`[]🎯 全球直连`[]♻️ 香港自动`[]♻️ 台湾自动`[]♻️ 新加坡自动`[]♻️ 日本自动`[]♻️ 美国自动`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇺🇸 美国节点`[]🚀 手动选择
 custom_proxy_group=🚀 测速工具`select`[]🎯 全球直连`[]♻️ 香港自动`[]♻️ 台湾自动`[]♻️ 新加坡自动`[]♻️ 日本自动`[]♻️ 美国自动`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇺🇸 美国节点`[]🚀 手动选择
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 默认代理`[]♻️ 香港自动`[]♻️ 台湾自动`[]♻️ 新加坡自动`[]♻️ 日本自动`[]♻️ 美国自动`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇺🇸 美国节点`[]🚀 手动选择`[]🎯 全球直连
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=♻️ 香港自动`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong|深港)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=♻️ 台湾自动`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=♻️ 新加坡自动`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
