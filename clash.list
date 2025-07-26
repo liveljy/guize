@@ -130,6 +130,7 @@ custom_proxy_group=🇺🇸 美国节点`select`(美|波特兰|达拉斯|俄勒�
 custom_proxy_group=🇰🇷 韩国节点`select`(KR|Korea|KOR|首尔|韩|韓)
 custom_proxy_group=🇬🇧 英国节点`select`(英国|Great Britain)
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
+custom_proxy_group=🐟 遵循规则`select`[]🐟 漏网之鱼
 ;设置分组标志位
 
 ;下方参数请勿修改
